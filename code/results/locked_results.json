@@ -1,0 +1,2318 @@
+{
+  "aggregate": [
+    {
+      "max_test_discarded_energy": 0.0852514176559084,
+      "mean_test_discarded_energy": 0.06419953676488682,
+      "mean_train_discarded_energy": 0.015254407244628683,
+      "median_test_discarded_energy": 0.06039341153576373,
+      "method": "complement_robust",
+      "protocol": "full_objective",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.0820003428313901,
+      "mean_test_discarded_energy": 0.05418041447562082,
+      "mean_train_discarded_energy": 0.015213120040944612,
+      "median_test_discarded_energy": 0.04444852731379058,
+      "method": "complement_robust",
+      "protocol": "full_objective",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.07996245447520432,
+      "mean_test_discarded_energy": 0.04664849525286105,
+      "mean_train_discarded_energy": 0.015036753215829785,
+      "median_test_discarded_energy": 0.03894103632653341,
+      "method": "complement_robust",
+      "protocol": "full_objective",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.07846315627134597,
+      "mean_test_discarded_energy": 0.0381122086424967,
+      "mean_train_discarded_energy": 0.014863853798052426,
+      "median_test_discarded_energy": 0.035560786322590396,
+      "method": "complement_robust",
+      "protocol": "full_objective",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 0.08469333149742748,
+      "mean_test_discarded_energy": 0.06398101332749145,
+      "mean_train_discarded_energy": 0.01521295119125655,
+      "median_test_discarded_energy": 0.06045217612739869,
+      "method": "task_only",
+      "protocol": "full_objective",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.08085053944249669,
+      "mean_test_discarded_energy": 0.06255082677933184,
+      "mean_train_discarded_energy": 0.008842531182771615,
+      "median_test_discarded_energy": 0.060342657185604054,
+      "method": "task_only",
+      "protocol": "full_objective",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.07921001371814078,
+      "mean_test_discarded_energy": 0.06104681859722056,
+      "mean_train_discarded_energy": 0.00477965943796663,
+      "median_test_discarded_energy": 0.060342657185604054,
+      "method": "task_only",
+      "protocol": "full_objective",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.0770118200173404,
+      "mean_test_discarded_energy": 0.05898168363573391,
+      "mean_train_discarded_energy": 0.0014194507075001017,
+      "median_test_discarded_energy": 0.05974372632840903,
+      "method": "task_only",
+      "protocol": "full_objective",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 0.9947965498610813,
+      "mean_test_discarded_energy": 0.6684004171886705,
+      "mean_train_discarded_energy": 0.6594284846454153,
+      "median_test_discarded_energy": 0.8392390438360251,
+      "method": "unweighted",
+      "protocol": "full_objective",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.9481454514770977,
+      "mean_test_discarded_energy": 0.6508582558636056,
+      "mean_train_discarded_energy": 0.6460374437105347,
+      "median_test_discarded_energy": 0.8215174919670148,
+      "method": "unweighted",
+      "protocol": "full_objective",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.9428612950263581,
+      "mean_test_discarded_energy": 0.5945961871687445,
+      "mean_train_discarded_energy": 0.5820806117803066,
+      "median_test_discarded_energy": 0.7131100922929234,
+      "method": "unweighted",
+      "protocol": "full_objective",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.9124935972625386,
+      "mean_test_discarded_energy": 0.4858486872073339,
+      "mean_train_discarded_energy": 0.4658243731237008,
+      "median_test_discarded_energy": 0.5647512636580819,
+      "method": "unweighted",
+      "protocol": "full_objective",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 0.9232877836253158,
+      "mean_test_discarded_energy": 0.6851026106883223,
+      "mean_train_discarded_energy": 0.662702822146955,
+      "median_test_discarded_energy": 0.7041917390858938,
+      "method": "coordinate",
+      "protocol": "full_objective",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.8313887711292905,
+      "mean_test_discarded_energy": 0.6022141477836165,
+      "mean_train_discarded_energy": 0.5721342123409452,
+      "median_test_discarded_energy": 0.6249183750380634,
+      "method": "coordinate",
+      "protocol": "full_objective",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.7743612074194515,
+      "mean_test_discarded_energy": 0.5381526274322538,
+      "mean_train_discarded_energy": 0.5011997748726833,
+      "median_test_discarded_energy": 0.5399957669743091,
+      "method": "coordinate",
+      "protocol": "full_objective",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.7210751699288165,
+      "mean_test_discarded_energy": 0.47882132392164867,
+      "mean_train_discarded_energy": 0.4363456772548864,
+      "median_test_discarded_energy": 0.48810287536273966,
+      "method": "coordinate",
+      "protocol": "full_objective",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 0.973466389789888,
+      "mean_test_discarded_energy": 0.8474209289401332,
+      "mean_train_discarded_energy": 0.997605605579231,
+      "median_test_discarded_energy": 0.8300897419335906,
+      "method": "complement_robust",
+      "protocol": "localized_contrast",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.9597797225580573,
+      "mean_test_discarded_energy": 0.7147088314005197,
+      "mean_train_discarded_energy": 0.991752148976496,
+      "median_test_discarded_energy": 0.6479865114084874,
+      "method": "complement_robust",
+      "protocol": "localized_contrast",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.9301656091391302,
+      "mean_test_discarded_energy": 0.5825220948898895,
+      "mean_train_discarded_energy": 0.9824950415925913,
+      "median_test_discarded_energy": 0.503249271498577,
+      "method": "complement_robust",
+      "protocol": "localized_contrast",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.8498506704915809,
+      "mean_test_discarded_energy": 0.43959560601095327,
+      "mean_train_discarded_energy": 0.9788572194594892,
+      "median_test_discarded_energy": 0.39187284543096723,
+      "method": "complement_robust",
+      "protocol": "localized_contrast",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 0.9963503476975347,
+      "mean_test_discarded_energy": 0.9688578551838419,
+      "mean_train_discarded_energy": 0.6181687802518345,
+      "median_test_discarded_energy": 0.9635310693747879,
+      "method": "task_only",
+      "protocol": "localized_contrast",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.9736464430089875,
+      "mean_test_discarded_energy": 0.945132730219644,
+      "mean_train_discarded_energy": 0.3949059301230153,
+      "median_test_discarded_energy": 0.9635310693747879,
+      "method": "task_only",
+      "protocol": "localized_contrast",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.9736464430089877,
+      "mean_test_discarded_energy": 0.9249800664601897,
+      "mean_train_discarded_energy": 0.21348135178214314,
+      "median_test_discarded_energy": 0.9251469054488752,
+      "method": "task_only",
+      "protocol": "localized_contrast",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.9736464430089878,
+      "mean_test_discarded_energy": 0.8988556379332633,
+      "mean_train_discarded_energy": 0.0685575101852037,
+      "median_test_discarded_energy": 0.8950325778166014,
+      "method": "task_only",
+      "protocol": "localized_contrast",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 0.9995329023651371,
+      "mean_test_discarded_energy": 0.9020146785656251,
+      "mean_train_discarded_energy": 0.8304275165677668,
+      "median_test_discarded_energy": 0.913758406407329,
+      "method": "unweighted",
+      "protocol": "localized_contrast",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 0.9739605980250986,
+      "mean_test_discarded_energy": 0.8009183815834399,
+      "mean_train_discarded_energy": 0.758756412845776,
+      "median_test_discarded_energy": 0.8264551005939798,
+      "method": "unweighted",
+      "protocol": "localized_contrast",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 0.9503333074394285,
+      "mean_test_discarded_energy": 0.72035323449176,
+      "mean_train_discarded_energy": 0.6646296845258425,
+      "median_test_discarded_energy": 0.6963266904655158,
+      "method": "unweighted",
+      "protocol": "localized_contrast",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 0.8982948876666927,
+      "mean_test_discarded_energy": 0.6257149151644802,
+      "mean_train_discarded_energy": 0.516584859077407,
+      "median_test_discarded_energy": 0.6018023924936236,
+      "method": "unweighted",
+      "protocol": "localized_contrast",
+      "rank": 4
+    },
+    {
+      "max_test_discarded_energy": 1.0,
+      "mean_test_discarded_energy": 0.9656762765599236,
+      "mean_train_discarded_energy": 0.8056644992536298,
+      "median_test_discarded_energy": 0.9654063198810422,
+      "method": "coordinate",
+      "protocol": "localized_contrast",
+      "rank": 1
+    },
+    {
+      "max_test_discarded_energy": 1.0,
+      "mean_test_discarded_energy": 0.9592134074121761,
+      "mean_train_discarded_energy": 0.6772617525004802,
+      "median_test_discarded_energy": 0.9592606317738803,
+      "method": "coordinate",
+      "protocol": "localized_contrast",
+      "rank": 2
+    },
+    {
+      "max_test_discarded_energy": 1.0,
+      "mean_test_discarded_energy": 0.9353233949576621,
+      "mean_train_discarded_energy": 0.575223342227682,
+      "median_test_discarded_energy": 0.9468442371953363,
+      "method": "coordinate",
+      "protocol": "localized_contrast",
+      "rank": 3
+    },
+    {
+      "max_test_discarded_energy": 1.0,
+      "mean_test_discarded_energy": 0.9306403476797639,
+      "mean_train_discarded_energy": 0.48640760218282497,
+      "median_test_discarded_energy": 0.9415736629633826,
+      "method": "coordinate",
+      "protocol": "localized_contrast",
+      "rank": 4
+    }
+  ],
+  "instances": [
+    {
+      "adjointness_gap": 6.78357716359974e-17,
+      "global_vertex_ids_one_based": [
+        1,
+        16,
+        27,
+        58,
+        74,
+        99,
+        133,
+        144,
+        173,
+        177
+      ],
+      "global_vertices": 800,
+      "graph": "G1",
+      "legacy_held_out_span_residual": 4.3621311134061396e-16,
+      "local_edges": 13,
+      "local_vertices": 10,
+      "parameter_dimension": 23,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 13,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.24022872627473102,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.02169755604799024,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.049052554560846624,
+              "train_discarded_energy": 0.014035936873808965
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.04207378668935243,
+              "train_discarded_energy": 0.013971493105468377
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.04067392919052004,
+              "train_discarded_energy": 0.0133667385558111
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.03799492404803924,
+              "train_discarded_energy": 0.013007172881270648
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.04921479210669917,
+              "train_discarded_energy": 0.013989824533768241
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.04787516544392657,
+              "train_discarded_energy": 0.006470597089623525
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.04763187183037532,
+              "train_discarded_energy": 0.0038053602516019192
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.04663241964358445,
+              "train_discarded_energy": 0.0016933036500158913
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9947965498610813,
+              "train_discarded_energy": 0.9838218740923607
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.9436282744930006,
+              "train_discarded_energy": 0.9274974496026075
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.9428612950263581,
+              "train_discarded_energy": 0.9265437353710986
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.28400429775467667,
+              "train_discarded_energy": 0.25997640665286226
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.4806084934651347,
+              "train_discarded_energy": 0.44220152164585264
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.44025662020468836,
+              "train_discarded_energy": 0.38512539343878865
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.38032138467493815,
+              "train_discarded_energy": 0.33730760216610733
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.32038614914518815,
+              "train_discarded_energy": 0.2894898108934261
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 7.714485137076852e-16,
+          "rank_four_robust_projector_gap": 6.14226642846113e-14,
+          "rank_four_task_loss_gap": 1.0842021724855044e-18,
+          "rank_four_task_projector_gap": 2.6385587533881026e-15,
+          "robust_vjps": 13,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 13,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.9332565252573827,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.801199671166762,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.9169138347295875,
+              "train_discarded_energy": 0.9935362589979548
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.8806310954272174,
+              "train_discarded_energy": 0.9735372951723984
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.8134504742153991,
+              "train_discarded_energy": 0.9512244372483613
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.5270830544678953,
+              "train_discarded_energy": 0.9512244372483614
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9507231605262175,
+              "train_discarded_energy": 0.5455032732934882
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.8972141394695126,
+              "train_discarded_energy": 0.3406901765137212
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.8814447777071083,
+              "train_discarded_energy": 0.17055864711657157
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.8590674333480023,
+              "train_discarded_energy": 0.06858441172242494
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9476886628349642,
+              "train_discarded_energy": 0.9387658273458802
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.931530808934684,
+              "train_discarded_energy": 0.812055732638313
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.9202078116991494,
+              "train_discarded_energy": 0.7721072632715439
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.7223749539595182,
+              "train_discarded_energy": 0.5061388759341169
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9383005261139652,
+              "train_discarded_energy": 0.7672314785725409
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.9383005261139652,
+              "train_discarded_energy": 0.5946464949197997
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.936303088731429,
+              "train_discarded_energy": 0.4577589398141522
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.936303088731429,
+              "train_discarded_energy": 0.3695053054640316
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 2.209077109419126e-16,
+          "rank_four_robust_projector_gap": 3.694608415512991e-15,
+          "rank_four_task_loss_gap": 0.0,
+          "rank_four_task_projector_gap": 3.0964868176530246e-15,
+          "robust_vjps": 13,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665"
+    },
+    {
+      "adjointness_gap": 5.722904966236491e-17,
+      "global_vertex_ids_one_based": [
+        98,
+        13,
+        16,
+        35,
+        56,
+        61,
+        117,
+        126,
+        127,
+        135
+      ],
+      "global_vertices": 800,
+      "graph": "G6",
+      "legacy_held_out_span_residual": 8.447914536689717e-16,
+      "local_edges": 10,
+      "local_vertices": 10,
+      "parameter_dimension": 20,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 10,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.24160478888358788,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.014958550066486664,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.06531633328823998,
+              "train_discarded_energy": 0.010460207580547677
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.044464693912587325,
+              "train_discarded_energy": 0.01039184469879026
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.033213871690503445,
+              "train_discarded_energy": 0.010388560851865238
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.022196903875651222,
+              "train_discarded_energy": 0.010388560851865238
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.0654338624715099,
+              "train_discarded_energy": 0.010455163050527932
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.0652148245879206,
+              "train_discarded_energy": 0.007344792873032454
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.0652148245879206,
+              "train_discarded_energy": 0.004285341879146111
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.06521482458792062,
+              "train_discarded_energy": 0.0012258908852597642
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.8567873980103472,
+              "train_discarded_energy": 0.9156113781900923
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.8287720097339456,
+              "train_discarded_energy": 0.8940719261114197
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.8022799244494943,
+              "train_discarded_energy": 0.8506636479324795
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.7362183334057996,
+              "train_discarded_energy": 0.7480773110810712
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.851877948366304,
+              "train_discarded_energy": 0.8834590482306902
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.7408097175566055,
+              "train_discarded_energy": 0.8172717575008825
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.693137927553174,
+              "train_discarded_energy": 0.7510951351042232
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.6454661375497428,
+              "train_discarded_energy": 0.6849185127075639
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 6.762119301929164e-16,
+          "rank_four_robust_projector_gap": 6.522846267512183e-15,
+          "rank_four_task_loss_gap": 2.168404344971009e-19,
+          "rank_four_task_projector_gap": 1.8015544859786516e-15,
+          "robust_vjps": 10,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 10,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.916515138991168,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.7777777777777777,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.7565021435838499,
+              "train_discarded_energy": 0.9999457302981661
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.5425857228833578,
+              "train_discarded_energy": 0.9996915766860042
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.33129704914336466,
+              "train_discarded_energy": 0.9996915766860042
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.18792588539434665,
+              "train_discarded_energy": 0.9927094667759676
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9755806202605667,
+              "train_discarded_energy": 0.6696533928862318
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9736464430089875,
+              "train_discarded_energy": 0.46468584690101833
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.9736464430089877,
+              "train_discarded_energy": 0.2627143364756973
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.9736464430089878,
+              "train_discarded_energy": 0.0607428260503763
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.7555758017558586,
+              "train_discarded_energy": 0.9995043296198789
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.6589893676607009,
+              "train_discarded_energy": 0.8795648260000627
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.6097111245840496,
+              "train_discarded_energy": 0.7170115476226112
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.5946190764597642,
+              "train_discarded_energy": 0.5102311917109738
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 1.0,
+              "train_discarded_energy": 0.8871258716943667
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 1.0,
+              "train_discarded_energy": 0.7742517433887335
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 1.0,
+              "train_discarded_energy": 0.6613776150831
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 1.0,
+              "train_discarded_energy": 0.5485034867774667
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 3.050015230882695e-16,
+          "rank_four_robust_projector_gap": 3.796384310242192e-15,
+          "rank_four_task_loss_gap": 0.0,
+          "rank_four_task_projector_gap": 5.497474403218011e-15,
+          "robust_vjps": 10,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "e3dd8b29205280f1ad5806849321cdff6f11324c75cb95647d5783f3e47a1103"
+    },
+    {
+      "adjointness_gap": 7.499101175494543e-17,
+      "global_vertex_ids_one_based": [
+        195,
+        187,
+        194,
+        196,
+        203,
+        179,
+        186,
+        188,
+        193,
+        202
+      ],
+      "global_vertices": 800,
+      "graph": "G11",
+      "legacy_held_out_span_residual": 5.266250202865052e-16,
+      "local_edges": 12,
+      "local_vertices": 10,
+      "parameter_dimension": 22,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 12,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.2379565348697952,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.022666354754437554,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.08236954695328386,
+              "train_discarded_energy": 0.01768085897966104
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.06949721216084419,
+              "train_discarded_energy": 0.017671182032123613
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.060503144659325166,
+              "train_discarded_energy": 0.017546225555503045
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.04565905514847516,
+              "train_discarded_energy": 0.01738028674695084
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.08212380035234661,
+              "train_discarded_energy": 0.01764426452570651
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.07993039536745673,
+              "train_discarded_energy": 0.010477659253664928
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.07828125156632477,
+              "train_discarded_energy": 0.005679188295931274
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.07280683462054995,
+              "train_discarded_energy": 0.0019282399254662186
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.6598912393947959,
+              "train_discarded_energy": 0.7129673307753203
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.6460777016521944,
+              "train_discarded_energy": 0.7105294112417263
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.5737787453486798,
+              "train_discarded_energy": 0.6112492008132663
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.5069194196384318,
+              "train_discarded_energy": 0.5349721627852492
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.8502546039734312,
+              "train_discarded_energy": 0.8520426492642836
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.7541325299186753,
+              "train_discarded_energy": 0.7135599668784998
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.6676933179681996,
+              "train_discarded_energy": 0.59192727197616
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.548199724052651,
+              "train_discarded_energy": 0.48731232596286317
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 0.0,
+          "rank_four_robust_projector_gap": 6.179094008443188e-15,
+          "rank_four_task_loss_gap": 3.2526065174565133e-18,
+          "rank_four_task_projector_gap": 1.612290877113439e-15,
+          "robust_vjps": 12,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 12,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.8935250957719058,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.7388721804511278,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.8069040022454644,
+              "train_discarded_energy": 0.9980022181691517
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.6383508872794468,
+              "train_discarded_energy": 0.9925525544920584
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.4672278027857388,
+              "train_discarded_energy": 0.9878826453601441
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.39176794532737186,
+              "train_discarded_energy": 0.9847183996741194
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9616811253872769,
+              "train_discarded_energy": 0.6476171512588473
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9168591747817271,
+              "train_discarded_energy": 0.3772329978173297
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.9080075238525712,
+              "train_discarded_energy": 0.18048374876647547
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.8666196355737013,
+              "train_discarded_energy": 0.06266749297918904
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.8033925096195751,
+              "train_discarded_energy": 0.8649441388059498
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.6249502733621128,
+              "train_discarded_energy": 0.7799863252435713
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.5176728916770754,
+              "train_discarded_energy": 0.6658943410830009
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.38334459477501914,
+              "train_discarded_energy": 0.5223264868275845
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9983797059561922,
+              "train_discarded_energy": 0.8157059620201469
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.992881893829735,
+              "train_discarded_energy": 0.678151138094814
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.8703407683538655,
+              "train_discarded_energy": 0.5549182046612209
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.8662900332443464,
+              "train_discarded_energy": 0.4617788894020628
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 3.335285968238424e-16,
+          "rank_four_robust_projector_gap": 1.8591063765529846e-14,
+          "rank_four_task_loss_gap": 1.3877787807814457e-17,
+          "rank_four_task_projector_gap": 1.7486684677849738e-15,
+          "robust_vjps": 12,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174"
+    },
+    {
+      "adjointness_gap": 1.208836033502161e-16,
+      "global_vertex_ids_one_based": [
+        292,
+        96,
+        187,
+        198,
+        227,
+        252,
+        282,
+        316,
+        374,
+        443
+      ],
+      "global_vertices": 800,
+      "graph": "G14",
+      "legacy_held_out_span_residual": 5.925669139098813e-16,
+      "local_edges": 21,
+      "local_vertices": 10,
+      "parameter_dimension": 31,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 21,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.2685369089384619,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.028008446961981404,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.04555670023718171,
+              "train_discarded_energy": 0.017179843885584977
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.03812898477556271,
+              "train_discarded_energy": 0.017179843885584974
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.03720814346254678,
+              "train_discarded_energy": 0.01704046632266782
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.03312664859714156,
+              "train_discarded_energy": 0.016814498620573434
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.04465271130512596,
+              "train_discarded_energy": 0.017143651115229946
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.04181847045583744,
+              "train_discarded_energy": 0.006622880160239874
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.038680022970722636,
+              "train_discarded_energy": 0.003178571648555489
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.035229627776370405,
+              "train_discarded_energy": 0.0012841788199055685
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.821690689661703,
+              "train_discarded_energy": 0.7524264063437802
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.8142629742000841,
+              "train_discarded_energy": 0.7524264063437802
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.8123057861034375,
+              "train_discarded_energy": 0.7500393968696638
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.7696973097939209,
+              "train_discarded_energy": 0.6969216307438844
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.38802690720849764,
+              "train_discarded_energy": 0.3327489192624546
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.286534201693698,
+              "train_discarded_energy": 0.21828305815509208
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.23833533871231175,
+              "train_discarded_energy": 0.18881911440627552
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.1901364757309255,
+              "train_discarded_energy": 0.15935517065745894
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 0.0,
+          "rank_four_robust_projector_gap": 2.477034643448895e-14,
+          "rank_four_task_loss_gap": 2.168404344971009e-19,
+          "rank_four_task_projector_gap": 4.363316866981276e-15,
+          "robust_vjps": 21,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 21,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.9528076064820193,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.9023679684654755,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.853275481621717,
+              "train_discarded_energy": 0.9999999999999997
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.8357452182944243,
+              "train_discarded_energy": 0.9921628225694527
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.7743312797878793,
+              "train_discarded_energy": 0.9716135602593838
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.7622478084236172,
+              "train_discarded_energy": 0.9661132381457646
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9493227714319905,
+              "train_discarded_energy": 0.5050461182040505
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9120122700469514,
+              "train_discarded_energy": 0.2777768983983176
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.8593858374655241,
+              "train_discarded_energy": 0.1661998456077201
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.7743842971526353,
+              "train_discarded_energy": 0.0699817107640444
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9968061493838394,
+              "train_discarded_energy": 0.641462102013744
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.8500816310055562,
+              "train_discarded_energy": 0.641462102013744
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.8270915875170366,
+              "train_discarded_energy": 0.5691756079769366
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.8075212903162814,
+              "train_discarded_energy": 0.45687398260283957
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9126912130899469,
+              "train_discarded_energy": 0.5987313117130997
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.8819271757731901,
+              "train_discarded_energy": 0.4720300967639289
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.8816401827926297,
+              "train_discarded_energy": 0.42650712504787874
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.8815161795619357,
+              "train_discarded_energy": 0.3858992360851353
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 3.024870584073145e-16,
+          "rank_four_robust_projector_gap": 1.904365171358307e-14,
+          "rank_four_task_loss_gap": 0.0,
+          "rank_four_task_projector_gap": 2.7715268835143817e-15,
+          "robust_vjps": 21,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945"
+    },
+    {
+      "adjointness_gap": 3.684210448386511e-17,
+      "global_vertex_ids_one_based": [
+        389,
+        4,
+        30,
+        45,
+        59,
+        108,
+        388,
+        432,
+        660,
+        732
+      ],
+      "global_vertices": 800,
+      "graph": "G18",
+      "legacy_held_out_span_residual": 7.80025504730977e-16,
+      "local_edges": 21,
+      "local_vertices": 10,
+      "parameter_dimension": 31,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 21,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.2661513087615587,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.026930064202568094,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.0852514176559084,
+              "train_discarded_energy": 0.026639872990498522
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.0820003428313901,
+              "train_discarded_energy": 0.02649254761016366
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.07996245447520432,
+              "train_discarded_energy": 0.025991551148535224
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.07846315627134597,
+              "train_discarded_energy": 0.025509648301326335
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.08469333149742748,
+              "train_discarded_energy": 0.026441051721885288
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.08085053944249669,
+              "train_discarded_energy": 0.01755471514818854
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.07921001371814078,
+              "train_discarded_energy": 0.009704076016164489
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.0770118200173404,
+              "train_discarded_energy": 0.00297947649831177
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9543347220824888,
+              "train_discarded_energy": 0.9202382241426953
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.9481454514770977,
+              "train_discarded_energy": 0.9046964552656777
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.9342458666710541,
+              "train_discarded_energy": 0.8897769311003064
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.9124935972625386,
+              "train_discarded_energy": 0.8778783866869175
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.8705074004711825,
+              "train_discarded_energy": 0.8172595241024306
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.73508215838628,
+              "train_discarded_energy": 0.6859262630880765
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.6086112247672806,
+              "train_discarded_energy": 0.5969408447207455
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.549294881620209,
+              "train_discarded_energy": 0.52069576526784
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 1.0982043779992095e-15,
+          "rank_four_robust_projector_gap": 6.670633633316064e-15,
+          "rank_four_task_loss_gap": 4.336808689942018e-19,
+          "rank_four_task_projector_gap": 1.7379342149527477e-15,
+          "robust_vjps": 21,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 21,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.9420489054984763,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.9099471820384929,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.973466389789888,
+              "train_discarded_energy": 0.9896762425232489
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.9597797225580573,
+              "train_discarded_energy": 0.9797406082620801
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.9301656091391302,
+              "train_discarded_energy": 0.9612933294472642
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.8498506704915809,
+              "train_discarded_energy": 0.9507575578927934
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9963503476975347,
+              "train_discarded_energy": 0.6509777391420796
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9638817135083757,
+              "train_discarded_energy": 0.40328665896933724
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.9201408010452136,
+              "train_discarded_energy": 0.21022961141130003
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.8947738546181722,
+              "train_discarded_energy": 0.09210752353174224
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9995329023651371,
+              "train_discarded_energy": 0.8166918618610178
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.9739605980250986,
+              "train_discarded_energy": 0.7805765664072982
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.9503333074394285,
+              "train_discarded_energy": 0.7205351600804955
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.8982948876666927,
+              "train_discarded_energy": 0.6058781038125792
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9839684025667481,
+              "train_discarded_energy": 0.8549554166038645
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.9716770263524244,
+              "train_discarded_energy": 0.7377149406477711
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.9535949256575807,
+              "train_discarded_energy": 0.6565120557695246
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.9203052857746079,
+              "train_discarded_energy": 0.586774051894746
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 2.4326855419310225e-16,
+          "rank_four_robust_projector_gap": 5.083828378404919e-15,
+          "rank_four_task_loss_gap": 1.3877787807814457e-17,
+          "rank_four_task_projector_gap": 1.3194655235142663e-14,
+          "robust_vjps": 21,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "6185af31fae0f7d59e232dad91178753574b7caa111dd6e6bf52f11c80e928d8"
+    },
+    {
+      "adjointness_gap": 9.911863637717494e-17,
+      "global_vertex_ids_one_based": [
+        486,
+        194,
+        314,
+        462,
+        498,
+        667,
+        776,
+        959,
+        995,
+        1459
+      ],
+      "global_vertices": 2000,
+      "graph": "G22",
+      "legacy_held_out_span_residual": 5.283775210381055e-16,
+      "local_edges": 9,
+      "local_vertices": 10,
+      "parameter_dimension": 19,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 9,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.21342821140488324,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.0111611758687868,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.055470489783287495,
+              "train_discarded_energy": 0.009679770493788455
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.044432360714993825,
+              "train_discarded_energy": 0.009679770493788457
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.03339423164670016,
+              "train_discarded_energy": 0.009679770493788455
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.022356102578406502,
+              "train_discarded_energy": 0.009679770493788457
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.05547048978328749,
+              "train_discarded_energy": 0.009679770493788455
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.055470489783287495,
+              "train_discarded_energy": 0.0065695428268168704
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.055470489783287495,
+              "train_discarded_energy": 0.003459315159845289
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.05547048978328749,
+              "train_discarded_energy": 0.0003490874928737079
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.04905835141463656,
+              "train_discarded_energy": 0.011058587260344456
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.044535625969817055,
+              "train_discarded_energy": 0.009222733694415033
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.037158540079264515,
+              "train_discarded_energy": 0.008191156901741294
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.030689082660083723,
+              "train_discarded_energy": 0.006903836480276408
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.5581288741983563,
+              "train_discarded_energy": 0.5404716408738574
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.5147545916898468,
+              "train_discarded_energy": 0.4811560123796459
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.47138030918133744,
+              "train_discarded_energy": 0.42184038388543454
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.42800602667282817,
+              "train_discarded_energy": 0.3625247553912232
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 3.206437621444096e-16,
+          "rank_four_robust_projector_gap": 0.5211265354410588,
+          "rank_four_task_loss_gap": 2.710505431213761e-19,
+          "rank_four_task_projector_gap": 2.264062214444354e-15,
+          "robust_vjps": 9,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 9,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.8944271909999159,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.7777777777777779,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.8007389673060314,
+              "train_discarded_energy": 1.0000000000000002
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.6014779346120628,
+              "train_discarded_energy": 1.0
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.40221690191809434,
+              "train_discarded_energy": 1.0000000000000002
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.20295586922412584,
+              "train_discarded_energy": 1.0000000000000002
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.6606548765637843
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.46256490000047823
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.2644749234371721
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.0663849468738661
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.8856045897509682,
+              "train_discarded_energy": 0.7043199166695353
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.8039600522437321,
+              "train_discarded_energy": 0.5873946530592596
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.6707884120383225,
+              "train_discarded_energy": 0.5216936676124546
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.554001340756604,
+              "train_discarded_energy": 0.43970440527471055
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.862607246729893
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.7519023587801943
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.6411974708304958
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.5304925828807976
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 4.192663400752685e-16,
+          "rank_four_robust_projector_gap": 1.149058404203153e-14,
+          "rank_four_task_loss_gap": 0.0,
+          "rank_four_task_projector_gap": 2.042642909596547e-15,
+          "robust_vjps": 9,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e"
+    },
+    {
+      "adjointness_gap": 1.8209558878569995e-16,
+      "global_vertex_ids_one_based": [
+        583,
+        563,
+        582,
+        584,
+        603,
+        543,
+        562,
+        564,
+        581,
+        602
+      ],
+      "global_vertices": 2000,
+      "graph": "G32",
+      "legacy_held_out_span_residual": 5.266250202865052e-16,
+      "local_edges": 12,
+      "local_vertices": 10,
+      "parameter_dimension": 22,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 12,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.2379565348697952,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.022666354754437554,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.07510876185705902,
+              "train_discarded_energy": 0.016678996659351353
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.06841357400524224,
+              "train_discarded_energy": 0.016638508007849093
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.05483795525138844,
+              "train_discarded_energy": 0.01660094230467894
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.042744776042507544,
+              "train_discarded_energy": 0.016451121994855992
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.07478862932024773,
+              "train_discarded_energy": 0.016670113595357562
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.07377623937044182,
+              "train_discarded_energy": 0.009130519283789855
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.06841558453770553,
+              "train_discarded_energy": 0.004666107092643179
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.06401696287353058,
+              "train_discarded_energy": 0.0015463408952941867
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9615860356696709,
+              "train_discarded_energy": 0.9682454890983866
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.9418405546413898,
+              "train_discarded_energy": 0.9592426895699533
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.6239402601363527,
+              "train_discarded_energy": 0.610028692302949
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.6225831076777321,
+              "train_discarded_energy": 0.5931285671334573
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9232877836253158,
+              "train_discarded_energy": 0.8929676329222132
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.8313887711292905,
+              "train_discarded_energy": 0.7945952349069307
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.7743612074194515,
+              "train_discarded_energy": 0.6998274628370859
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.7210751699288165,
+              "train_discarded_energy": 0.6239443217674926
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 3.3039360038613634e-16,
+          "rank_four_robust_projector_gap": 1.2225176694851237e-14,
+          "rank_four_task_loss_gap": 2.3852447794681098e-18,
+          "rank_four_task_projector_gap": 2.1195451301413284e-15,
+          "robust_vjps": 12,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 12,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.8935250957719058,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.7388721804511278,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.8708276449384962,
+              "train_discarded_energy": 0.999684394645326
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.657622135537528,
+              "train_discarded_energy": 0.9963323346299744
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.5392707402114152,
+              "train_discarded_energy": 0.9882547837395728
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.3919777455345626,
+              "train_discarded_energy": 0.9853346559389068
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9901426774175738,
+              "train_discarded_energy": 0.6052428141024102
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9703859621920213,
+              "train_discarded_energy": 0.3704450623834416
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.9301530098525368,
+              "train_discarded_energy": 0.1887147780050364
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.8952913010150306,
+              "train_discarded_energy": 0.061606222686120364
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.9419122230636849,
+              "train_discarded_energy": 0.9734120395565976
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.8489501489442273,
+              "train_discarded_energy": 0.9131038280294003
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.721864968892709,
+              "train_discarded_energy": 0.704031923415912
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.6089857085274829,
+              "train_discarded_energy": 0.5350876488099564
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.998381890361863,
+              "train_discarded_energy": 0.7963514599652337
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.9952321628374216,
+              "train_discarded_energy": 0.6574948886284053
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.9470197197351196,
+              "train_discarded_energy": 0.5623178557845876
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.9470197197351196,
+              "train_discarded_energy": 0.477814682077562
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 9.267081717427789e-16,
+          "rank_four_robust_projector_gap": 5.593292027217973e-15,
+          "rank_four_task_loss_gap": 1.3877787807814457e-17,
+          "rank_four_task_projector_gap": 1.6909789272295557e-15,
+          "robust_vjps": 12,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "9760fce6b601832db1b1173c1a09c8556d64bfb27ba603ef52ca24ee6c8527cc"
+    },
+    {
+      "adjointness_gap": 3.169052683477456e-17,
+      "global_vertex_ids_one_based": [
+        680,
+        13,
+        47,
+        54,
+        81,
+        192,
+        290,
+        356,
+        371,
+        406
+      ],
+      "global_vertices": 1000,
+      "graph": "G43",
+      "legacy_held_out_span_residual": 2.730787568572e-16,
+      "local_edges": 9,
+      "local_vertices": 10,
+      "parameter_dimension": 19,
+      "protocols": [
+        {
+          "dense_jacobian_vjps": 9,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.21342821140488324,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.011161175868786795,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.055470489783287384,
+              "train_discarded_energy": 0.009679770493788457
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.04443236071499371,
+              "train_discarded_energy": 0.009679770493788457
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.03339423164670006,
+              "train_discarded_energy": 0.009679770493788457
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.022356102578406385,
+              "train_discarded_energy": 0.009679770493788457
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.055470489783287384,
+              "train_discarded_energy": 0.009679770493788459
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.055470489783287356,
+              "train_discarded_energy": 0.006569542826816873
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.05547048978328736,
+              "train_discarded_energy": 0.0034593151598452908
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.055470489783287356,
+              "train_discarded_energy": 0.0003490874928737076
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.0490583514146396,
+              "train_discarded_energy": 0.011058587260342798
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.03960345474131569,
+              "train_discarded_energy": 0.010612477854698564
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.030199079535315025,
+              "train_discarded_energy": 0.01015213295094844
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.024184349465487923,
+              "train_discarded_energy": 0.008736683425888304
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.5581288741983563,
+              "train_discarded_energy": 0.5404716408738575
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.5147545916898468,
+              "train_discarded_energy": 0.4811560123796459
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.4713803091813375,
+              "train_discarded_energy": 0.4218403838854346
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.4280060266728282,
+              "train_discarded_energy": 0.3625247553912232
+            }
+          ],
+          "protocol": "full_objective",
+          "rank_four_robust_loss_gap": 1.603218810722048e-16,
+          "rank_four_robust_projector_gap": 0.8394284181006678,
+          "rank_four_task_loss_gap": 1.6263032587282567e-19,
+          "rank_four_task_projector_gap": 2.2759348462335503e-15,
+          "robust_vjps": 9,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        },
+        {
+          "dense_jacobian_vjps": 9,
+          "development_tasks": 5,
+          "direct_task_vjps": 5,
+          "held_out_span_residual": 0.8944271909999159,
+          "held_out_tasks": 5,
+          "leave_one_out_radius": 0.7777777777777777,
+          "metrics": [
+            {
+              "method": "complement_robust",
+              "rank": 1,
+              "test_discarded_energy": 0.8007389673060314,
+              "train_discarded_energy": 1.0
+            },
+            {
+              "method": "complement_robust",
+              "rank": 2,
+              "test_discarded_energy": 0.601477934612063,
+              "train_discarded_energy": 1.0
+            },
+            {
+              "method": "complement_robust",
+              "rank": 3,
+              "test_discarded_energy": 0.40221690191809434,
+              "train_discarded_energy": 1.0
+            },
+            {
+              "method": "complement_robust",
+              "rank": 4,
+              "test_discarded_energy": 0.20295586922412587,
+              "train_discarded_energy": 1.0000000000000002
+            },
+            {
+              "method": "task_only",
+              "rank": 1,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.6606548765637843
+            },
+            {
+              "method": "task_only",
+              "rank": 2,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.46256490000047806
+            },
+            {
+              "method": "task_only",
+              "rank": 3,
+              "test_discarded_energy": 0.9635310693747879,
+              "train_discarded_energy": 0.26447492343717216
+            },
+            {
+              "method": "task_only",
+              "rank": 4,
+              "test_discarded_energy": 0.9635310693747882,
+              "train_discarded_energy": 0.06638494687386612
+            },
+            {
+              "method": "unweighted",
+              "rank": 1,
+              "test_discarded_energy": 0.8856045897509731,
+              "train_discarded_energy": 0.7043199166695311
+            },
+            {
+              "method": "unweighted",
+              "rank": 2,
+              "test_discarded_energy": 0.7149241724914065,
+              "train_discarded_energy": 0.6759072693745589
+            },
+            {
+              "method": "unweighted",
+              "rank": 3,
+              "test_discarded_energy": 0.5451557720863087,
+              "train_discarded_energy": 0.6465879651437854
+            },
+            {
+              "method": "unweighted",
+              "rank": 4,
+              "test_discarded_energy": 0.43657746885447907,
+              "train_discarded_energy": 0.5564381776464957
+            },
+            {
+              "method": "coordinate",
+              "rank": 1,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.862607246729893
+            },
+            {
+              "method": "coordinate",
+              "rank": 2,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.7519023587801945
+            },
+            {
+              "method": "coordinate",
+              "rank": 3,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.641197470830496
+            },
+            {
+              "method": "coordinate",
+              "rank": 4,
+              "test_discarded_energy": 0.9468442371953363,
+              "train_discarded_energy": 0.5304925828807976
+            }
+          ],
+          "protocol": "localized_contrast",
+          "rank_four_robust_loss_gap": 0.0,
+          "rank_four_robust_projector_gap": 8.703267401414635e-15,
+          "rank_four_task_loss_gap": 0.0,
+          "rank_four_task_projector_gap": 1.7585086699422216e-15,
+          "robust_vjps": 9,
+          "source_rank": 5,
+          "task_only_vjps": 5
+        }
+      ],
+      "sha256": "9af5445b4b066cbf1eabe218d4e0d907cb6f211651cae557c761ec344dc37be8"
+    }
+  ],
+  "registered_findings": {
+    "action_and_dense_objectives_agree": true,
+    "contrast_split_is_strongly_out_of_span": true,
+    "legacy_split_is_in_span": true,
+    "revised_full_split_is_out_of_span": true,
+    "robust_beats_unweighted_on_both_protocol_means": true,
+    "robust_improves_task_only_on_both_protocol_means": true
+  }
+}

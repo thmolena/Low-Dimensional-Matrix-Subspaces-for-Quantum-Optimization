@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Randomized Subspace QAOA icon">
-  <rect width="64" height="64" rx="14" fill="#0b2524"/>
-  <path d="M15 47V17h34M20 42 31 31l8 5 10-15" fill="none" stroke="#79c8bd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
-  <path d="M20 20h24v24H20z" fill="none" stroke="#c3f56d" stroke-width="3" transform="rotate(-12 32 32)"/>
-  <circle cx="31" cy="31" r="4" fill="#f2b65f"/>
-</svg>

@@ -1,0 +1,36 @@
+{
+  "dataset_sha256": {
+    "G1": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+    "G11": "c2a760d2926db4fefd23b25c098dcd6311f711b355dbd1cc689fa25660c73174",
+    "G14": "dc769b978a40d458f693d5bd2cf8b8cceabd430b8e976204746696179c3d5945",
+    "G18": "6185af31fae0f7d59e232dad91178753574b7caa111dd6e6bf52f11c80e928d8",
+    "G22": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+    "G32": "9760fce6b601832db1b1173c1a09c8556d64bfb27ba603ef52ca24ee6c8527cc",
+    "G43": "9af5445b4b066cbf1eabe218d4e0d907cb6f211651cae557c761ec344dc37be8",
+    "G6": "e3dd8b29205280f1ad5806849321cdff6f11324c75cb95647d5783f3e47a1103"
+  },
+  "dataset_source": "https://web.stanford.edu/~yyye/yyye/Gset",
+  "evidence_files": {
+    "code/manuscript_assets/figures/contrast_per_graph.pdf": "9eb9904cb6e90247b5236d4aa5da4a21bf2c3157a2b9f2a5a5e8b1073815a421",
+    "code/manuscript_assets/figures/contrast_per_graph.png": "6a68b749cc9de8430407301c0084acd76c796afc310179fb8d5befb1a55a155f",
+    "code/manuscript_assets/figures/operator_actions.pdf": "8593f14bb5446fb7114203df3417fc43a702ffd5dc3704224cc3e127fb9bbb7b",
+    "code/manuscript_assets/figures/operator_actions.png": "386c253ef9ea44f992e26d5b37251d5b9636d3d523441737ac302361cb703518",
+    "code/manuscript_assets/figures/oracle_cost_audit.pdf": "13ae97cba551426c94479abd3403e45d537aa24df5b455579bf5e6ea9632bb74",
+    "code/manuscript_assets/figures/oracle_cost_audit.png": "30e3722a8d88785cf22d22919d3cfd25a01dc9142712be5157760e55acce29a2",
+    "code/manuscript_assets/figures/rank_frontier.pdf": "f5cfe99297ab2a886a6db8caf9f51da4d23a2ec9650ac736dfda5a4bbb1ed7ac",
+    "code/manuscript_assets/figures/rank_frontier.png": "a91a258a1df57c72c459a37455a7038f1a93cea7a80dbb4bab48f4c700dd4e8a",
+    "code/manuscript_assets/figures/robust_transfer_audit.pdf": "8ba69a550ea0344a7f74730ce22a0764f53ff9f95a50a0ec527e0e58cf672f9e",
+    "code/manuscript_assets/figures/robust_transfer_audit.png": "6189f106721d8e92fa163f7600fdb544c2f5f1aaf027bc9364dffa7b175752db",
+    "code/manuscript_assets/figures/runtime_scaling.pdf": "f86eff8f85382f2f220dc567fdbb17525068cae0a97bbafa93907a80ff399c9c",
+    "code/manuscript_assets/figures/runtime_scaling.png": "12d34496728671d2eec45b2f3862c76fd5eb36ab6f87a4e562bd561b63600dff",
+    "code/manuscript_assets/figures/span_leakage_audit.pdf": "a0460a62290c0e2ffe8542fae083181c7d6196f121211810fd5b09ae68756938",
+    "code/manuscript_assets/figures/span_leakage_audit.png": "0467f413988b0be8e44ccda7bdf9fb3112d7cb5bb57429686fb0782e53f8eb10",
+    "code/results/locked_results.json": "a050dd5bbd0ed74c922b9bfec2731cce9101b45868945fbf9ed9cf2e4837fbf1",
+    "code/results/runtime_results.json": "b8c78e4008d5c161f9a97252ca3e740658e323029a353b64c3f37549cc296468",
+    "code/results/tables/contrast_per_graph.tex": "ed32d1c3ab18d1262a6d9b04ec2c057057ee9f00b691af540e354e7dfb608e4d",
+    "code/results/tables/rank_four_aggregate.tex": "8f80f54c64c97d6da96ffae8dbfc992e3ab6b54bfcc7173c7ae2fa273f9a72e9",
+    "code/results/tables/resource_audit.tex": "40aa46cf5278fb49f2f57475338617c7a0f40baabf74080767aba00285b2fa5f",
+    "code/results/tables/runtime.tex": "02ab827d680ac659a1f93e2ded72ff33894d5da81c8b1b6ab210cfab336a38a1"
+  },
+  "schema": 2
+}

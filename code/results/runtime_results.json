@@ -1,0 +1,252 @@
+{
+  "environment": {
+    "numpy": "2.5.1",
+    "platform": "macOS-26.6-arm64-arm-64bit",
+    "python": "3.12.13",
+    "threads": 10,
+    "timer": "time.perf_counter",
+    "torch": "2.13.0"
+  },
+  "instances": [
+    {
+      "graph": "G1",
+      "local_edges": 13,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 17.549624986713752,
+          "q1_ms": 17.488290992332622,
+          "q3_ms": 17.743999982485548,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 12.956582999322563,
+          "q1_ms": 12.892750004539266,
+          "q3_ms": 13.014249998377636,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.76408302388154,
+          "q1_ms": 6.706083018798381,
+          "q3_ms": 7.067875005304813,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 13.04229098604992,
+          "q1_ms": 12.978415994439274,
+          "q3_ms": 13.153999985661358,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G6",
+      "local_edges": 10,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 13.61520797945559,
+          "q1_ms": 13.480708003044128,
+          "q3_ms": 13.727166980970651,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 10.011332982685417,
+          "q1_ms": 9.973500011255965,
+          "q3_ms": 10.082416993100196,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.878542015329003,
+          "q1_ms": 6.869749980978668,
+          "q3_ms": 6.952666997676715,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 10.175832983804867,
+          "q1_ms": 9.960958996089175,
+          "q3_ms": 10.301625006832182,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G11",
+      "local_edges": 12,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 15.99470799556002,
+          "q1_ms": 15.960792021360248,
+          "q3_ms": 16.20237500173971,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 11.887709028087556,
+          "q1_ms": 11.856584023917094,
+          "q3_ms": 11.900917015736923,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.826249998994172,
+          "q1_ms": 6.790124985855073,
+          "q3_ms": 6.879458000184968,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 11.860207974677905,
+          "q1_ms": 11.78512501064688,
+          "q3_ms": 11.93745800992474,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G14",
+      "local_edges": 21,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 28.597750002518296,
+          "q1_ms": 28.510958014521748,
+          "q3_ms": 28.78770901588723,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 20.48345797811635,
+          "q1_ms": 20.418458007043228,
+          "q3_ms": 20.578208001097664,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.788208993384615,
+          "q1_ms": 6.775249989004806,
+          "q3_ms": 6.8119999777991325,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 20.45499999076128,
+          "q1_ms": 20.42695801355876,
+          "q3_ms": 20.503084000665694,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G18",
+      "local_edges": 21,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 28.48233300028369,
+          "q1_ms": 28.350582986604422,
+          "q3_ms": 28.56095801689662,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 20.430834003491327,
+          "q1_ms": 20.366250013466924,
+          "q3_ms": 20.48450001166202,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.749916996341199,
+          "q1_ms": 6.723207974573597,
+          "q3_ms": 6.829541991464794,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 20.333041000412777,
+          "q1_ms": 20.29275000677444,
+          "q3_ms": 20.456624974031,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G22",
+      "local_edges": 9,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 12.10962500772439,
+          "q1_ms": 12.099582992959768,
+          "q3_ms": 12.170457979664207,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 9.037125011673197,
+          "q1_ms": 8.975749980891123,
+          "q3_ms": 9.049875021446496,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.8142499949317425,
+          "q1_ms": 6.7849170009139925,
+          "q3_ms": 6.81695801904425,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 9.007582993945107,
+          "q1_ms": 8.97870899643749,
+          "q3_ms": 9.068209008546546,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G32",
+      "local_edges": 12,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 16.244167025433853,
+          "q1_ms": 16.219500015722588,
+          "q3_ms": 16.295540990540758,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 12.046165997162461,
+          "q1_ms": 11.974792025284842,
+          "q3_ms": 12.0545000245329,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.781166972359642,
+          "q1_ms": 6.75212501664646,
+          "q3_ms": 6.793083011871204,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 11.887333006598055,
+          "q1_ms": 11.844292021123692,
+          "q3_ms": 11.892625014297664,
+          "repeats": 9
+        }
+      }
+    },
+    {
+      "graph": "G43",
+      "local_edges": 9,
+      "timings": {
+        "complement_robust_action": {
+          "median_ms": 12.155417003668845,
+          "q1_ms": 12.109458009945229,
+          "q3_ms": 12.213749985676259,
+          "repeats": 9
+        },
+        "complement_robust_dense": {
+          "median_ms": 9.107792022405192,
+          "q1_ms": 9.030250017531216,
+          "q3_ms": 9.120957984123379,
+          "repeats": 9
+        },
+        "task_only_action": {
+          "median_ms": 6.79754200973548,
+          "q1_ms": 6.783250020816922,
+          "q3_ms": 6.818791996920481,
+          "repeats": 9
+        },
+        "task_only_dense": {
+          "median_ms": 9.018374985316768,
+          "q1_ms": 9.00258298497647,
+          "q3_ms": 9.052749985130504,
+          "repeats": 9
+        }
+      }
+    }
+  ]
+}

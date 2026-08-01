@@ -1,8 +1,4 @@
 include README.md
 include LICENSE
-include source_manifest.json
 include uv.lock
-recursive-include src/rsqaoa_repro/bundle *
-include src/rsqaoa_repro/evidence_manifest.json
 recursive-include tests *.py
-recursive-include tools *.py

@@ -1,132 +1,49 @@
-# Randomized Subspace QAOA self-contained code package
+# Reproduction package
 
-This directory is an independently buildable `src`-layout distribution. It
-contains a byte-identical mirror of the canonical root `rsqaoa/` package, every
-committed experiment driver and frozen configuration, row-level and summary
-data, generated figures and tables, and a single command that distinguishes
-immutable artifact replay from a new seeded execution.
+This package implements the exact depth-one multi-angle QAOA observable map,
+Jacobian-vector and transpose-Jacobian actions, authenticated Stanford Gset
+loading, source-span diagnostics, task-only and complement-robust action
+factors, dense audit baselines, and generated manuscript evidence.
 
-## Fresh-clone Mac CPU install
-
-Python 3.9 through 3.13 is supported. From a fresh clone:
+## Installation
 
 ```bash
-cd code
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install ".[test,release]"
+python3 -m venv /tmp/observable-subspaces-venv
+/tmp/observable-subspaces-venv/bin/python -m pip install -e "./code[test]"
 ```
 
-For the exact universal resolver state in `uv.lock`:
+## Data authentication and replay
 
 ```bash
-uv sync --locked --extra test --extra release
-source .venv/bin/activate
+RSQAOA_GSET_CACHE=/tmp/observable-subspaces-gset \
+  /tmp/observable-subspaces-venv/bin/python code/scripts/download_data.py
+RSQAOA_GSET_CACHE=/tmp/observable-subspaces-gset \
+  /tmp/observable-subspaces-venv/bin/python code/scripts/reproduce.py
 ```
 
-The lock records exact versions, hashes, Python markers, and platform wheels
-across the declared interpreter range. PyTorch wheel availability still
-depends on Python and CPU architecture.
+Every registered file is downloaded only from Stanford and rejected unless
+its SHA-256 digest matches. Replay reconstructs all neighborhoods and task
+banks, checks span separation, independently compares action and dense
+objectives, evaluates every method and rank, and verifies the locked evidence
+manifest. Host-dependent timing values are stored with environment metadata
+but excluded from deterministic numeric comparison.
 
-## Verify or replay the committed evidence
-
-This mode hashes every bundled byte and validates row counts, source hashes,
-protocol hashes, and the generated-asset manifest. It performs no simulation,
-optimization, summarization, or plotting:
+To regenerate all records, timings, tables, and plots:
 
 ```bash
-rsqaoa-reproduce-all replay
-python tools/check_source_sync.py
-python -m pytest
-rsqaoa-experiment --help
-rsqaoa-experiment --family ring --n 6 --p 1 --steps 10 --json
+RSQAOA_GSET_CACHE=/tmp/observable-subspaces-gset \
+  /tmp/observable-subspaces-venv/bin/python code/scripts/make_figures.py
 ```
 
-Materialize an exact byte-for-byte copy at the original repository-relative
-paths:
+## Tests and release validation
 
 ```bash
-rsqaoa-reproduce-all replay --output replayed-evidence
+RSQAOA_GSET_CACHE=/tmp/observable-subspaces-gset \
+  /tmp/observable-subspaces-venv/bin/python -m pytest code/tests -q
+/tmp/observable-subspaces-venv/bin/python code/scripts/validate_release.py
 ```
 
-## Run all seeded studies again
-
-Full mode reruns:
-
-1. the fixed-objective `maxcut_small` grid;
-2. the exact task-stream amortized development study;
-3. the finite-shot hybrid development study;
-4. both analyzers and all committed figure/table generators; and
-5. the design-only confirmatory-plan validator.
-
-```bash
-rsqaoa-reproduce-all full --output full-rerun
-```
-
-Inspect the complete command plan without executing:
-
-```bash
-rsqaoa-reproduce-all full --output full-rerun --dry-run
-```
-
-A smaller one-job smoke execution is available:
-
-```bash
-rsqaoa-reproduce-all full --output quick-rerun --quick
-```
-
-Replay and rerun are intentionally distinct:
-
-- `replay` establishes byte/hash identity for the released CSV, JSON, YAML,
-  protocol, figure, and table files.
-- `full` creates a new seeded execution. Deterministic PyTorch settings and
-  seeds are retained, but BLAS, PyTorch, compiler, and platform changes can
-  produce floating-point drift. Cross-platform bitwise identity is not claimed.
-
-The confirmatory design reports `execution_ready: false`; the command validates
-that status and does not fabricate an unregistered confirmatory experiment.
-
-## Complete manuscript release gate
-
-From the repository root, one command recomputes every feasible summary,
-regenerates all 13 figures and five numbered tables, validates evidence and
-source synchronization, builds the REVTeX manuscript and deterministic source
-archive, and recompiles the extracted archive:
-
-```bash
-python run.py release
-```
-
-The command fails immediately if a locked evidence byte, packaged mirror,
-reported value, manuscript input, citation, or archive member has drifted.
-
-## Python API
-
-The public API is importable independently of the command line:
-
-```python
-from rsqaoa import MaxCutProblem, optimize_rsq
-
-problem = MaxCutProblem(n=6, edges=[(0, 1), (1, 2), (2, 3),
-                                   (3, 4), (4, 5), (0, 5)], p=1)
-result = optimize_rsq(problem, steps=10, maxrank=4, seed=7)
-print(result.best_cut, result.best_theta)
-```
-
-## Build and wheel-install checks
-
-```bash
-python -m build .
-python -m twine check dist/*
-python -m venv /tmp/rsqaoa-wheel-venv
-source /tmp/rsqaoa-wheel-venv/bin/activate
-python -m pip install dist/rsqaoa-0.3.0-py3-none-any.whl
-rsqaoa-reproduce-all replay
-rsqaoa-experiment --family ring --n 6 --p 1 --steps 10 --json
-```
-
-The canonical implementation remains the repository-root `rsqaoa/` directory.
-`tools/check_source_sync.py` rejects any missing, added, or byte-different file
-and checks `source_manifest.json`, preventing silent divergence of the package
-mirror.
+Tests cover provenance metadata, revised out-of-span task banks, the rejected
+in-span counterexample, the leave-one-out radius, task and robust action-factor
+identities, exact VJP counts, the target-span triangle bound, sensitivity
+adjointness, locked replay, and manuscript asset closure.

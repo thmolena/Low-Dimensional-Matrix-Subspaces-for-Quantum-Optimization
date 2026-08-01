@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the following work."
+title: "Source-Span Leakage and Complement-Robust Subspaces for Repeated Quantum Objectives"
+type: software
+authors:
+  - family-names: Huynh
+    given-names: Molena
+    affiliation: "North Carolina State University"
+    email: molena.huynh@jmp.com
+version: 0.5.0
+license: MIT
+repository-code: "https://github.com/thmolena/Low-Dimensional-Matrix-Subspaces-for-Quantum-Optimization"
+keywords:
+  - QAOA
+  - multi-angle QAOA
+  - source-span audit
+  - complement robustness
+  - matrix-free sensitivity products
+  - task-moment transfer
+  - Stanford Gset
+preferred-citation:
+  type: article
+  title: "Source-Span Leakage and Complement-Robust Subspaces for Repeated Quantum Objectives"
+  authors:
+    - family-names: Huynh
+      given-names: Molena
+      affiliation: "North Carolina State University"
+      email: molena.huynh@jmp.com
+  year: 2026
+  notes: "Preprint (2026)."
+  url: "https://github.com/thmolena/Low-Dimensional-Matrix-Subspaces-for-Quantum-Optimization/blob/main/main.pdf"

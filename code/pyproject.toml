@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rsqaoa"
-version = "0.3.0"
-description = "Self-contained source, evidence, and reproduction package for Randomized Subspace QAOA"
+version = "0.5.0"
+description = "Source-span auditing and complement-robust quantum sensitivity subspaces"
 readme = "README.md"
 requires-python = ">=3.9,<3.14"
 license = "MIT"
@@ -14,8 +14,6 @@ authors = [{ name = "Molena Huynh" }]
 dependencies = [
   "numpy>=1.23,<3",
   "torch>=2.0,<3",
-  "networkx>=2.8,<4",
-  "pyyaml>=6,<7",
   "matplotlib>=3.6,<4",
 ]
 
@@ -25,19 +23,17 @@ test = ["pytest>=7,<10", "pytest-cov>=4,<8"]
 release = ["build>=1,<2", "twine>=5,<7"]
 
 [project.scripts]
-rsqaoa-experiment = "rsqaoa._cli:main"
-rsqaoa-reproduce = "rsqaoa.reproduce:main"
-rsqaoa-reproduce-all = "rsqaoa_repro.cli:main"
+observable-subspaces-reproduce = "hqml_observable_subspaces.authentic_study:main"
 
 [tool.setuptools]
 include-package-data = false
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["rsqaoa", "rsqaoa.*", "rsqaoa_repro"]
-
-[tool.setuptools.package-data]
-rsqaoa_repro = ["evidence_manifest.json", "bundle/**/*"]
+include = [
+  "rsqaoa", "rsqaoa.*",
+  "hqml_observable_subspaces", "hqml_observable_subspaces.*",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
