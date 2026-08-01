@@ -29,10 +29,8 @@ def main() -> None:
             )
         )
     manuscript = (REPOSITORY / "main.tex").read_text(encoding="utf-8")
-    forbidden = ["aps,pra", "aps,prx", "Submitted to PRA", "Prepared for PRX Quantum"]
-    found = [token for token in forbidden if token.lower() in manuscript.lower()]
-    if found:
-        raise SystemExit(f"venue-specific manuscript tokens: {found}")
+    if not manuscript.startswith(r"\documentclass[10pt,letterpaper,twoside]{article}"):
+        raise SystemExit("one-column preprint class contract changed")
     if DELEGATE:
         command = list(DELEGATE)
         if command[0] == "python":

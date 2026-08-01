@@ -736,7 +736,14 @@ def write_figures(study: dict, runtime: dict, output: Path) -> None:
         task_values.append(by_method["task_only"])
         robust_values.append(by_method["complement_robust"])
     axes[1, 0].plot([0, 1], [0, 1], "--", color="#555555", lw=1, label="equal loss")
-    axes[1, 0].scatter(task_values, robust_values, color=colors["complement_robust"])
+    ordered = sorted(zip(task_values, robust_values))
+    axes[1, 0].plot(
+        [left for left, _ in ordered],
+        [right for _, right in ordered],
+        "o-",
+        color=colors["complement_robust"],
+        label="graph sequence",
+    )
     for name, left, right in zip(graphs, task_values, robust_values):
         axes[1, 0].annotate(name, (left, right), xytext=(3, 2), textcoords="offset points", fontsize=6.5)
     axes[1, 0].set(xlabel="task-only rank-four loss", ylabel="robust rank-four loss", xlim=(0, 1), ylim=(0, 1))

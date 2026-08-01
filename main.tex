@@ -1,4 +1,5 @@
-\documentclass[reprint,twocolumn,notitlepage,superscriptaddress,floatfix]{revtex4-2}
+\documentclass[10pt,letterpaper,twoside]{article}
+\usepackage{code/manuscript_assets/researchpreprint}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,amsthm,bm}
 \usepackage{booktabs}
@@ -26,6 +27,8 @@
 \affiliation{North Carolina State University}
 \date{August 1, 2026}
 
+\maketitle
+
 \begin{abstract}
 A sensitivity subspace trained on repeated objectives can fail when a new
 objective contains components outside the development task span.  We introduce
@@ -47,8 +50,9 @@ accuracy--cost trade-off for out-of-span transfer, with no runtime advantage
 at the reported scale.
 \end{abstract}
 
-\keywords{active subspaces, QAOA, distributional robustness, Jacobian products, MaxCut}
-\maketitle
+\begin{keywords}
+active subspaces, QAOA, distributional robustness, Jacobian products, MaxCut
+\end{keywords}
 
 \section{Sensitivity loss}
 
@@ -224,7 +228,7 @@ targets relative to task-only; it does not beat every baseline on every graph.
 Figure~\ref{fig:transfer} displays the corresponding rank path and paired
 target losses.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.95\textwidth]{code/manuscript_assets/figures/robust_transfer_audit.pdf}
 \caption{\label{fig:transfer}Out-of-span transfer audit.  Top left: development
@@ -232,7 +236,7 @@ span distance for the leakage control and two registered protocols.  Top
 right: contrast loss across retained ranks.  Bottom left: paired rank-four
 task-only and robust losses; points below the diagonal favor completion.
 Bottom right: aggregate held-out loss under both protocols.}
-\end{figure*}
+\end{figure}
 
 The action and dense constructions agree in objective value to at least
 $1.1\times10^{-15}$ on the rank-four checks.  This agreement validates the
@@ -243,7 +247,7 @@ whereas robust completion uses 9--21.  On the locked CPU run, robust action is
 Fig.~\ref{fig:cost} and Table~\ref{tab:resource} separate derivative counts,
 wall time, dimensions, and numerical agreement.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.96\textwidth]{code/manuscript_assets/figures/oracle_cost_audit.pdf}
 \caption{\label{fig:cost}Derivative and implementation audit.  Left:
@@ -251,7 +255,7 @@ transpose-Jacobian counts predicted by Theorem~\ref{thm:query}.  Center:
 action-to-dense runtime ratio, with unity marking equal time.  Right:
 action--dense rank-four objective gaps for the factorizations in
 Theorems~\ref{thm:query} and \ref{thm:robust}.}
-\end{figure*}
+\end{figure}
 
 \begin{table}[t]
 \caption{\label{tab:resource}Dimensions and exact transpose-Jacobian counts.
@@ -275,7 +279,7 @@ benefit.  Its supported conclusion is narrower: complement-supported moment
 completion improves out-of-span gradient preservation on the registered graph
 panel, at the disclosed derivative and wall-clock cost.
 
-\bibliographystyle{apsrev4-2}
+\bibliographystyle{plainnat}
 \bibliography{code/manuscript_assets/references}
 
 \end{document}

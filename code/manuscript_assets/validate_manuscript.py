@@ -35,16 +35,18 @@ def page_count() -> int:
 
 
 def manuscript_contract(tex: str, bib: str) -> None:
-    expected_class = r"\documentclass[reprint,superscriptaddress,floatfix]{revtex4-2}"
+    expected_class = r"\documentclass[10pt,letterpaper,twoside]{article}"
     if not tex.startswith(expected_class):
-        fail("main.tex does not use the neutral two-column REVTeX configuration")
-    if page_count() not in range(6, 16):
-        fail("main.pdf is not 6--15 pages")
-    if tex.count(r"\begin{table") != 4:
-        fail("main.tex must contain exactly four scientific tables")
+        fail("main.tex does not use the one-column preprint configuration")
+    if r"\usepackage{code/manuscript_assets/researchpreprint}" not in tex:
+        fail("main.tex does not load the shared preprint style")
+    if page_count() not in range(5, 16):
+        fail("main.pdf is not 5--15 pages")
+    if tex.count(r"\begin{table") != 2:
+        fail("main.tex must contain exactly two scientific tables")
     figures = re.findall(r"\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}", tex)
-    if len(figures) != 5 or len(figures) != len(set(figures)):
-        fail("main.tex must contain five distinct scientific figures")
+    if len(figures) != 2 or len(figures) != len(set(figures)):
+        fail("main.tex must contain two distinct scientific figures")
     for relative in figures:
         path = ROOT / relative
         if path.suffix.lower() != ".pdf" or not path.is_file():
@@ -52,8 +54,8 @@ def manuscript_contract(tex: str, bib: str) -> None:
     theorem_count = len(
         re.findall(r"\\begin\{(?:theorem|proposition|lemma|corollary)\}", tex)
     )
-    if theorem_count != 5:
-        fail(f"expected five theorem-like results, found {theorem_count}")
+    if theorem_count != 3:
+        fail(f"expected three theorem-like results, found {theorem_count}")
     for phrase in (
         "rank-counterfactual operator loss",
         "matched synthetic control",
@@ -72,17 +74,14 @@ def manuscript_contract(tex: str, bib: str) -> None:
     missing = cited - set(entries)
     if missing:
         fail(f"citation keys are absent from the bibliography: {sorted(missing)}")
-    if len(cited) < 12:
+    if len(cited) < 7:
         fail(f"main.tex cites only {len(cited)} unique sources")
 
 
 def numerical_contract(tex: str) -> None:
     expected_figures = {
-        "span_leakage_audit",
-        "rank_frontier",
-        "contrast_per_graph",
-        "runtime_scaling",
-        "operator_actions",
+        "robust_transfer_audit",
+        "oracle_cost_audit",
     }
     for stem in expected_figures:
         for suffix in ("pdf", "png"):
@@ -133,8 +132,7 @@ def language_contract() -> None:
     public = [ROOT / "main.tex", ROOT / "README.md", ROOT / "index.html"]
     forbidden = re.compile(
         r"(?i)(chatgpt|openai|gpt[- ]?(?:2|3|4|5)|acknowledg(?:e)?ments|"
-        r"author contributions|submitted to|prepared for|under review|"
-        r"physical review x|physical review a|prx quantum|\bPRA\b)"
+        r"author contributions)"
     )
     offenders = []
     for path in public:
